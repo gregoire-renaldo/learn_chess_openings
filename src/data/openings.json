@@ -304,5 +304,495 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sicilian-defense",
+    "name": "Sicilian Defense",
+    "eco": "B20",
+    "side": "black",
+    "startFen": "start",
+    "description": "Counter-attacking defense with c5",
+    "lines": [
+      {
+        "id": "sicilian-main-open",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "d7d6",
+          "d2d4",
+          "c5d4",
+          "f3d4",
+          "g8f6",
+          "b1c3",
+          "a7a6"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Open Sicilian mainline setup",
+        "notes": [
+          "Fight for d4",
+          "Develop quickly"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "sicilian-sideline-accelerated",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "b8c6",
+          "d2d4",
+          "c5d4",
+          "f3d4",
+          "g7g6"
+        ],
+        "type": "sideline",
+        "weight": 60,
+        "explanation": "Accelerated Dragon structure",
+        "notes": [
+          "Control dark squares",
+          "Fianchetto pressure"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "sicilian-offbeat-a6",
+        "moves": [
+          "e2e4",
+          "c7c5",
+          "g1f3",
+          "a7a6",
+          "d2d4",
+          "c5d4",
+          "f3d4"
+        ],
+        "type": "offbeat",
+        "weight": 20,
+        "explanation": "Offbeat early ...a6",
+        "notes": [
+          "Punish slow move with center"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  {
+    "id": "french-defense",
+    "name": "French Defense",
+    "eco": "C00",
+    "side": "black",
+    "startFen": "start",
+    "description": "Solid defense with e6 and d5 counterplay",
+    "lines": [
+      {
+        "id": "french-main-classical",
+        "moves": [
+          "e2e4",
+          "e7e6",
+          "d2d4",
+          "d7d5",
+          "b1c3",
+          "g8f6",
+          "e4e5",
+          "f6d7"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Classical French structure",
+        "notes": [
+          "Gain space, keep center tension"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "french-sideline-exchange",
+        "moves": [
+          "e2e4",
+          "e7e6",
+          "d2d4",
+          "d7d5",
+          "e4d5",
+          "e6d5",
+          "g1f3"
+        ],
+        "type": "sideline",
+        "weight": 60,
+        "explanation": "Exchange French",
+        "notes": [
+          "Symmetric pawn structure"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "french-offbeat-d3",
+        "moves": [
+          "e2e4",
+          "e7e6",
+          "d2d3",
+          "d7d5",
+          "g1f3"
+        ],
+        "type": "offbeat",
+        "weight": 20,
+        "explanation": "Quiet anti-French setup",
+        "notes": [
+          "Develop normally and hold center"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  {
+    "id": "caro-kann-defense",
+    "name": "Caro-Kann Defense",
+    "eco": "B10",
+    "side": "black",
+    "startFen": "start",
+    "description": "Solid defense with c6 and d5",
+    "lines": [
+      {
+        "id": "caro-main-classical",
+        "moves": [
+          "e2e4",
+          "c7c6",
+          "d2d4",
+          "d7d5",
+          "b1c3",
+          "d5e4",
+          "c3e4",
+          "c8f5"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Classical Caro-Kann",
+        "notes": [
+          "Healthy structure and active bishop"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "caro-sideline-advance",
+        "moves": [
+          "e2e4",
+          "c7c6",
+          "d2d4",
+          "d7d5",
+          "b1c3",
+          "g8f6",
+          "e4e5"
+        ],
+        "type": "sideline",
+        "weight": 60,
+        "explanation": "Advance variation direction",
+        "notes": [
+          "Challenge center later with c5"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "caro-offbeat-nf3",
+        "moves": [
+          "e2e4",
+          "c7c6",
+          "g1f3",
+          "d7d5",
+          "d2d3"
+        ],
+        "type": "offbeat",
+        "weight": 20,
+        "explanation": "Quiet setup by White",
+        "notes": [
+          "Develop pieces before tension"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  {
+    "id": "kings-indian-defense",
+    "name": "King's Indian Defense",
+    "eco": "E60",
+    "side": "black",
+    "startFen": "start",
+    "description": "Hypermodern defense allowing White a broad center before counterattacking with ...d6, ...e5 or ...c5",
+    "lines": [
+      {
+        "id": "kid-main-classical",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "e2e4",
+          "d7d6",
+          "g1f3",
+          "e8g8",
+          "f1e2",
+          "e7e5",
+          "e1g1",
+          "b8c6",
+          "d4d5",
+          "c6e7"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "notes": [
+          "The knight on e7 heads to g6 or f5 to reinforce the kingside attack"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "kid-sideline-saemisch",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "e2e4",
+          "d7d6",
+          "f2f3",
+          "e8g8",
+          "c1e3",
+          "e7e5",
+          "d4d5",
+          "f6h5"
+        ],
+        "type": "sideline",
+        "weight": 60,
+        "explanation": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "notes": [
+          "Black aims for kingside play with ...f5"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "kid-offbeat-averbakh",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "g7g6",
+          "b1c3",
+          "f8g7",
+          "e2e4",
+          "d7d6",
+          "f1e2",
+          "e8g8",
+          "c1g5"
+        ],
+        "type": "offbeat",
+        "weight": 25,
+        "explanation": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "notes": [
+          "Black can still play ...c5 or ...Na6-c7 to challenge the center"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  {
+    "id": "nimzo-indian-defense",
+    "name": "Nimzo-Indian Defense",
+    "eco": "E20",
+    "side": "black",
+    "startFen": "start",
+    "description": "Classical Indian defense pinning White's knight on c3, fighting for the center with piece play rather than pawns",
+    "lines": [
+      {
+        "id": "nimzo-main-rubinstein",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "b1c3",
+          "f8b4",
+          "e2e3",
+          "e8g8",
+          "f1d3",
+          "d7d5",
+          "g1f3",
+          "c7c5",
+          "e1g1",
+          "d5c4",
+          "d3c4",
+          "b8d7"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "notes": [
+          "The pin on c3 gives Black excellent piece activity"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "nimzo-sideline-classical",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "b1c3",
+          "f8b4",
+          "d1c2",
+          "e8g8",
+          "a2a3",
+          "b4c3",
+          "c2c3",
+          "b7b6",
+          "c1g5",
+          "c8b7"
+        ],
+        "type": "sideline",
+        "weight": 65,
+        "explanation": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "notes": [
+          "After ...Bxc3+ Qxc3, White avoids doubled pawns but Black has bishop pair"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "nimzo-offbeat-leningrad",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "b1c3",
+          "f8b4",
+          "c1g5",
+          "h7h6",
+          "g5h4",
+          "c7c5",
+          "d4d5",
+          "b4c3",
+          "b2c3",
+          "d7d6"
+        ],
+        "type": "offbeat",
+        "weight": 25,
+        "explanation": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "notes": [
+          "White must decide whether to keep the pin or retreat"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  {
+    "id": "queens-indian-defense",
+    "name": "Queen's Indian Defense",
+    "eco": "E12",
+    "side": "black",
+    "startFen": "start",
+    "description": "Solid defense after 1.d4 Nf6 2.c4 e6 3.Nf3, fianchettoing the queen's bishop to control the long diagonal",
+    "lines": [
+      {
+        "id": "qid-main-petrosian",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "g1f3",
+          "b7b6",
+          "e2e3",
+          "c8b7",
+          "f1d3",
+          "f8e7",
+          "b1c3",
+          "d7d5",
+          "e1g1",
+          "e8g8",
+          "d1e2"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "notes": [
+          "The b7 bishop controls the long diagonal and supports ...d5"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "qid-sideline-kasparov",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "g1f3",
+          "b7b6",
+          "g2g3",
+          "c8b7",
+          "f1g2",
+          "f8e7",
+          "e1g1",
+          "e8g8",
+          "b1c3",
+          "f6e4",
+          "d1c2",
+          "e4c3",
+          "c2c3"
+        ],
+        "type": "sideline",
+        "weight": 65,
+        "explanation": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "notes": [
+          "Kasparov used this to great effect; the exchange on c3 relieves tension"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "id": "qid-offbeat-miles",
+        "moves": [
+          "d2d4",
+          "g8f6",
+          "c2c4",
+          "e7e6",
+          "g1f3",
+          "b7b6",
+          "a2a3",
+          "c8a6",
+          "d1c2",
+          "f8b4",
+          "b1d2",
+          "e8g8"
+        ],
+        "type": "offbeat",
+        "weight": 20,
+        "explanation": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "notes": [
+          "Active bishop play from the start; Black gets counterplay against c4"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
   }
 ]

@@ -7,7 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:rebuild-index": "node scripts/opening-data.mjs rebuild-index",
+    "data:add-opening": "node scripts/opening-data.mjs add-opening",
+    "data:fetch-opening": "node scripts/opening-data.mjs fetch-opening",
+    "data:add-line": "node scripts/opening-data.mjs add-line",
+    "data:normalize-tactics": "node scripts/opening-data.mjs normalize-tactics"
   },
   "dependencies": {
     "chess.js": "^1.4.0",

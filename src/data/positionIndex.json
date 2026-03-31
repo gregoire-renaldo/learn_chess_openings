@@ -1,134 +1,31 @@
 {
-  "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": {
+  "r1bq1rk1/ppp2pbp/2np1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - -": {
     "openingIds": [
-      "italian-game",
-      "queens-gambit",
-      "ruy-lopez"
+      "kings-indian-defense"
     ],
     "nextMoves": [
       {
-        "uci": "d2d4",
+        "uci": "c6e7",
         "type": "main",
         "weight": 100,
-        "note": "c4 challenges Black's center"
-      },
-      {
-        "uci": "e2e4",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
-  "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": {
+  "r1bq1rk1/ppp2pbp/2np1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 w - -": {
     "openingIds": [
-      "italian-game",
-      "ruy-lopez"
+      "kings-indian-defense"
     ],
     "nextMoves": [
       {
-        "uci": "e7e5",
+        "uci": "d4d5",
         "type": "main",
         "weight": 100,
-        "note": "Develop quickly"
-      }
-    ]
-  },
-  "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": {
-    "openingIds": [
-      "italian-game",
-      "ruy-lopez"
-    ],
-    "nextMoves": [
-      {
-        "uci": "g1f3",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
-      }
-    ]
-  },
-  "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": {
-    "openingIds": [
-      "italian-game",
-      "ruy-lopez"
-    ],
-    "nextMoves": [
-      {
-        "uci": "b8c6",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
-      },
-      {
-        "uci": "h7h6",
-        "type": "offbeat",
-        "weight": 18,
-        "note": "Punish slow pawn moves with central expansion"
-      },
-      {
-        "uci": "f7f6",
-        "type": "offbeat",
-        "weight": 10,
-        "note": "A weakening move can create immediate tactical chances"
-      }
-    ]
-  },
-  "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
-    "openingIds": [
-      "italian-game",
-      "ruy-lopez"
-    ],
-    "nextMoves": [
-      {
-        "uci": "f1b5",
-        "type": "main",
-        "weight": 100,
-        "note": "Bb5 increases pressure on e5 indirectly"
-      },
-      {
-        "uci": "f1c4",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
-      }
-    ]
-  },
-  "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
-    "openingIds": [
-      "italian-game"
-    ],
-    "nextMoves": [
-      {
-        "uci": "f8c5",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
-      },
-      {
-        "uci": "g8f6",
-        "type": "sideline",
-        "weight": 65,
-        "note": "Do not rush tactics when simple development is enough"
-      },
-      {
-        "uci": "c6d4",
-        "type": "offbeat",
-        "weight": 8,
-        "note": "When a piece moves twice early, check for tactical punishments"
-      }
-    ]
-  },
-  "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
-    "openingIds": [
-      "italian-game"
-    ],
-    "nextMoves": [
-      {
-        "uci": "c2c3",
-        "type": "main",
-        "weight": 100,
-        "note": "Develop quickly"
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
@@ -141,7 +38,28 @@
         "uci": "g8f6",
         "type": "main",
         "weight": 100,
-        "note": "Develop quickly"
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4"
+        ]
+      }
+    ]
+  },
+  "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c3",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4"
+        ]
       }
     ]
   },
@@ -155,6 +73,7 @@
         "type": "main",
         "weight": 100,
         "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
         "acceptedResponses": [
           "f1c4"
         ]
@@ -182,37 +101,281 @@
       }
     ]
   },
-  "rnbqkbnr/pppp1pp1/7p/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+  "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
     "openingIds": [
-      "italian-game"
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b5a4",
+        "type": "main",
+        "weight": 100,
+        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pp1ppppp/2n5/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c5d4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "r1bqkbnr/pp1ppppp/2n5/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "r1bqkbnr/pp1ppppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g7g6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "r1bqkbnr/pp1ppppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3d4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1pp1/2n4p/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
     ],
     "nextMoves": [
       {
         "uci": "d2d4",
         "type": "offbeat",
-        "weight": 18,
-        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "weight": 12,
+        "note": "Black asks the bishop early but neglects development. White should hit the center.",
         "recommendedResponses": [
           "d2d4"
         ],
         "acceptedResponses": [
           "d2d4",
-          "b1c3",
-          "f1c4"
+          "e1g1"
         ]
       }
     ]
   },
-  "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+  "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "a7a6",
+        "type": "main",
+        "weight": 100,
+        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 55,
+        "note": "The Berlin develops a piece and challenges White's central intentions immediately.",
+        "recommendedResponses": [
+          "e1g1",
+          "d2d3"
+        ],
+        "acceptedResponses": [
+          "e1g1",
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 12,
+        "note": "Black asks the bishop early but neglects development. White should hit the center.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "e1g1"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
     "openingIds": [
       "italian-game"
     ],
     "nextMoves": [
       {
-        "uci": "f3e5",
+        "uci": "f8c5",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4"
+        ]
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "uci": "c6d4",
         "type": "offbeat",
-        "weight": 10,
-        "note": "Black weakens the diagonal and the king. White can use the centralized knight jump tactically.",
+        "weight": 8,
+        "note": "Black jumps forward too early. White can answer with a tactical centralization.",
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1b5",
+        "type": "main",
+        "weight": 100,
+        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "f1c4",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4"
+        ]
+      },
+      {
+        "uci": "f1c4",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "uci": "f1b5",
+        "type": "sideline",
+        "weight": 55,
+        "note": "The Berlin develops a piece and challenges White's central intentions immediately.",
+        "recommendedResponses": [
+          "e1g1",
+          "d2d3"
+        ],
+        "acceptedResponses": [
+          "e1g1",
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "uci": "f1b5",
+        "type": "offbeat",
+        "weight": 12,
+        "note": "Black asks the bishop early but neglects development. White should hit the center.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "f1c4",
+        "type": "offbeat",
+        "weight": 8,
+        "note": "Black jumps forward too early. White can answer with a tactical centralization.",
         "recommendedResponses": [
           "f3e5"
         ],
@@ -241,153 +404,1549 @@
       }
     ]
   },
-  "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+  "rn1q1rk1/pbp1bppp/1p2pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 w - -": {
     "openingIds": [
-      "ruy-lopez"
+      "queens-indian-defense"
     ],
     "nextMoves": [
       {
-        "uci": "a7a6",
+        "uci": "d1e2",
         "type": "main",
         "weight": 100,
-        "note": "Bb5 increases pressure on e5 indirectly"
-      },
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1q1rk1/pbppbppp/1p2p3/8/2PP4/2n2NP1/PPQ1PPBP/R1B2RK1 w - -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
       {
-        "uci": "g8f6",
+        "uci": "c2c3",
         "type": "sideline",
-        "weight": 55,
-        "note": "The Berlin develops a piece and challenges White's central intentions immediately.",
-        "recommendedResponses": [
-          "e1g1",
-          "d2d3"
-        ],
-        "acceptedResponses": [
-          "e1g1",
-          "d2d3",
-          "b1c3"
-        ]
-      },
-      {
-        "uci": "h7h6",
-        "type": "offbeat",
-        "weight": 12,
-        "note": "Do not overreact to harmless pawn moves"
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
-  "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+  "rn1q1rk1/pbppbppp/1p2p3/8/2PPn3/2N2NP1/PP2PPBP/R1BQ1RK1 w - -": {
     "openingIds": [
-      "ruy-lopez"
+      "queens-indian-defense"
     ],
     "nextMoves": [
       {
-        "uci": "b5a4",
+        "uci": "d1c2",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1q1rk1/pbppbppp/1p2p3/8/2PPn3/2N2NP1/PPQ1PPBP/R1B2RK1 b - -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e4c3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1q1rk1/pbppbppp/1p2pn2/8/2PP4/2N2NP1/PP2PPBP/R1BQ1RK1 b - -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f6e4",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1q1rk1/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qk2r/p1pp1ppp/bp2pn2/8/1bPP4/P4N2/1PQ1PPPP/RNB1KB1R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1d2",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qk2r/p1pp1ppp/bp2pn2/8/1bPP4/P4N2/1PQNPPPP/R1B1KB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qk2r/pbp1bppp/1p2pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQ1RK1 b kq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
         "type": "main",
         "weight": 100,
-        "note": "Bb5 increases pressure on e5 indirectly"
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
-  "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+  "rn1qk2r/pbp1bppp/1p2pn2/3p4/2PP4/2NBPN2/PP3PPP/R1BQK2R w KQkq -": {
     "openingIds": [
-      "ruy-lopez"
+      "queens-indian-defense"
     ],
     "nextMoves": [
       {
-        "uci": "g8f6",
+        "uci": "e1g1",
         "type": "main",
         "weight": 100,
-        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
-        "acceptedResponses": [
-          "f1b5"
-        ]
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
-  "r1bqkbnr/pppp1pp1/2n4p/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+  "rn1qk2r/pbppbppp/1p2pn2/8/2PP4/2NBPN2/PP3PPP/R1BQK2R b KQkq -": {
     "openingIds": [
-      "ruy-lopez"
-    ],
-    "nextMoves": [
-      {
-        "uci": "d2d4",
-        "type": "offbeat",
-        "weight": 12,
-        "note": "Black asks the bishop early but neglects development. White should hit the center.",
-        "recommendedResponses": [
-          "d2d4"
-        ],
-        "acceptedResponses": [
-          "d2d4",
-          "e1g1"
-        ]
-      }
-    ]
-  },
-  "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3": {
-    "openingIds": [
-      "queens-gambit"
+      "queens-indian-defense"
     ],
     "nextMoves": [
       {
         "uci": "d7d5",
         "type": "main",
         "weight": 100,
-        "note": "c4 challenges Black's center"
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
-  "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6": {
+  "rn1qk2r/pbppbppp/1p2pn2/8/2PP4/3BPN2/PP3PPP/RNBQK2R w KQkq -": {
     "openingIds": [
-      "queens-gambit"
-    ],
-    "nextMoves": [
-      {
-        "uci": "c2c4",
-        "type": "main",
-        "weight": 100,
-        "note": "c4 challenges Black's center"
-      }
-    ]
-  },
-  "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": {
-    "openingIds": [
-      "queens-gambit"
-    ],
-    "nextMoves": [
-      {
-        "uci": "e7e6",
-        "type": "main",
-        "weight": 100,
-        "note": "c4 challenges Black's center"
-      },
-      {
-        "uci": "c7c6",
-        "type": "sideline",
-        "weight": 70,
-        "note": "White can continue normal development"
-      },
-      {
-        "uci": "h7h6",
-        "type": "offbeat",
-        "weight": 15,
-        "note": "When the opponent loses time, improve your pieces"
-      }
-    ]
-  },
-  "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
-    "openingIds": [
-      "queens-gambit"
+      "queens-indian-defense"
     ],
     "nextMoves": [
       {
         "uci": "b1c3",
         "type": "main",
         "weight": 100,
-        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
-        "acceptedResponses": [
-          "c2c4"
-        ]
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qk2r/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b kq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qk2r/pbppbppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e1g1",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/p1pp1ppp/bp2pn2/8/2PP4/P4N2/1P2PPPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d1c2",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/p1pp1ppp/bp2pn2/8/2PP4/P4N2/1PQ1PPPP/RNB1KB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8b4",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/3BPN2/PP3PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8e7",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/4PN2/PP3PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1d3",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1g2",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rn1qkb1r/pbpp1ppp/1p2pn2/8/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8e7",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/p1pp1ppp/1p2pn2/6B1/2PP4/P1Q5/1P2PPPP/R3KBNR b KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c8b7",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/p1pp1ppp/1p2pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c1g5",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pp3ppp/4pn2/2p5/1bBP4/2N1PN2/PP3PPP/R1BQ1RK1 b - -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b8d7",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pp3ppp/4pn2/2p5/1bpP4/2NBPN2/PP3PPP/R1BQ1RK1 w - -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d3c4",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQ1RK1 b - -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d5c4",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pp3ppp/4pn2/2pp4/1bPP4/2NBPN2/PP3PPP/R1BQK2R w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e1g1",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N1BP2/PP4PP/R2QKBNR b KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e5",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1e2",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP4PP/R1BQKBNR w KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c1e3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP2BPPP/R1BQK1NR w KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c1g5",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2pbp/3p1np1/3Pp3/2P1P3/2N1BP2/PP4PP/R2QKBNR b KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f6h5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N1BP2/PP4PP/R2QKBNR w KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d4d5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQ1RK1 b - -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b8c6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e1g1",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBP3/PP3PPP/R1BQK1NR w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/ppp2ppp/4pn2/3p4/1bPP4/2NBPN2/PP3PPP/R1BQK2R b KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c7c5",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1d3",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "a2a3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/2NBP3/PP3PPP/R1BQK1NR b KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/1bPP4/P1N5/1PQ1PPPP/R1B1KBNR b KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b4c3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1b5/1PQ1PPPP/R1B1KBNR w KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbq1rk1/pppp1ppp/4pn2/8/2PP4/P1Q5/1P2PPPP/R1B1KBNR b KQ -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b7b6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pp1p1pp1/4pn1p/2p5/1bPP3B/2N5/PP2PPPP/R2QKBNR w KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d4d5",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pp1p1pp1/4pn1p/2pP4/1bP4B/2N5/PP2PPPP/R2QKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b4c3",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pp1p1pp1/4pn1p/2pP4/2P4B/2b5/PP2PPPP/R2QKBNR w KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b2c3",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pp1p1pp1/4pn1p/2pP4/2P4B/2P5/P3PPPP/R2QKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N2P2/PP4PP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP2BPPP/R1BQK1NR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppp1ppbp/3p1np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f2f3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f1e2",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1pp1/4pn1p/6B1/1bPP4/2N5/PP2PPPP/R2QKBNR w KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g5h4",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1pp1/4pn1p/8/1bPP3B/2N5/PP2PPPP/R2QKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c7c5",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1ppp/4pn2/6B1/1bPP4/2N5/PP2PPPP/R2QKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N1P3/PP3PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e2e3",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d1c2",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c1g5",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PPQ1PPPP/R1B1KBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e8g8",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppppppbp/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e2e4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e2e4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e2e4",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqk2r/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/4PN2/PP3PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c8b7",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e2e3",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g2g3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "a2a3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/5NP1/PP2PP1P/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c8b7",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/p1pp1ppp/1p2pn2/8/2PP4/P4N2/1P2PPPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c8a6",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pp2pppp/2p2n2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e4e5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "a7a6",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e4e5",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/ppp2ppp/4pn2/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f6d7",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8b4",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f8b4",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f8b4",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b7b6",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b7b6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b7b6",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "nimzo-indian-defense",
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "Petrosian Variation: Classical QID setup with solid pawn structure and active bishop on b7",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b1c3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Kasparov Variation: White fianchettoes; Black simplifies with ...Ne4xc3, gaining time and solid structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b1c3",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Miles Variation: Black plays ...Ba6 to immediately challenge c4 and provoke a3",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8g7",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f8g7",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "f8g7",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "kings-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b1c3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b1c3",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense",
+      "nimzo-indian-defense",
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e6",
+        "type": "main",
+        "weight": 100,
+        "note": "Rubinstein Variation: Classical development, Black exchanges on c4 and develops naturally",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g7g6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Classical Variation: White plays Qc2 to avoid doubled pawns; Black fianchettoes and keeps fluid pawn structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g7g6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Leningrad Variation: White pins with Bg5; Black immediately challenges with ...h6 and ...c5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g7g6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "kings-indian-defense",
+      "nimzo-indian-defense",
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c2c4",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c2c4",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/1p1ppppp/p7/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c5d4",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/1p1ppppp/p7/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/1p1ppppp/p7/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3d4",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp1ppppp/2p5/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet setup by White",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d2d4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet setup by White",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d6",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b8c6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "a7a6",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g1f3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
       }
     ]
   },
@@ -412,6 +1971,157 @@
       }
     ]
   },
+  "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d5e4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "b1c3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/2p5/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet setup by White",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c8f5",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c3e4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c5d4",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3d4",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
   "rnbqkbnr/ppp1ppp1/7p/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
     "openingIds": [
       "queens-gambit"
@@ -430,6 +2140,733 @@
           "b1c3",
           "c4d5",
           "g1f3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e6",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      },
+      {
+        "uci": "c7c6",
+        "type": "sideline",
+        "weight": 70,
+        "note": "The Slav supports d5 before Black commits the bishop.",
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 15,
+        "note": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c4",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      },
+      {
+        "uci": "c2c4",
+        "type": "sideline",
+        "weight": 70,
+        "note": "The Slav supports d5 before Black commits the bishop.",
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      },
+      {
+        "uci": "c2c4",
+        "type": "offbeat",
+        "weight": 15,
+        "note": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e6d5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e4d5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3p4/4P3/3P4/PPP2PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet anti-French setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/8/3p4/3P4/8/PPP2PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1pp1/7p/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/4p3/8/4P3/3P4/PPP2PPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet anti-French setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "french-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d2d4",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d2d3",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet anti-French setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b8c6",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4",
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "b8c6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4"
+        ]
+      },
+      {
+        "uci": "b8c6",
+        "type": "offbeat",
+        "weight": 12,
+        "note": "Black jumps forward too early. White can answer with a tactical centralization.",
+        "recommendedResponses": [
+          "f3e5",
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "f3e5",
+          "d2d4",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "f7f6",
+        "type": "offbeat",
+        "weight": 10,
+        "note": "Black weakens the diagonal and the king. White can use the centralized knight jump tactically.",
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4",
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "g1f3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "g1f3",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4",
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4",
+          "f3e5",
+          "e1g1"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3e5",
+        "type": "offbeat",
+        "weight": 10,
+        "note": "Black weakens the diagonal and the king. White can use the centralized knight jump tactically.",
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "kings-indian-defense",
+      "nimzo-indian-defense",
+      "queens-gambit",
+      "queens-indian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      },
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical KID main line: Black fianchettoes, plays ...e5, knight maneuver to e7 targets d5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d5",
+        "type": "sideline",
+        "weight": 70,
+        "note": "The Slav supports d5 before Black commits the bishop.",
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Saemisch Variation: White plays f3 for a strong center; Black responds with ...e5 and ...Nh5 preparing ...f5",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "g8f6",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Averbakh Variation: White prevents ...e5 immediately with Bg5, aiming to control the e5 square",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "d7d5",
+        "type": "offbeat",
+        "weight": 15,
+        "note": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq -": {
+    "openingIds": [
+      "caro-kann-defense",
+      "french-defense",
+      "italian-game",
+      "ruy-lopez",
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c7c5",
+        "type": "main",
+        "weight": 100,
+        "note": "Open Sicilian mainline setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c7c6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical Caro-Kann",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e5",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4",
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "e7e6",
+        "type": "main",
+        "weight": 100,
+        "note": "Classical French structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e5",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "c7c5",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Accelerated Dragon structure",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c7c6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Advance variation direction",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e6",
+        "type": "sideline",
+        "weight": 60,
+        "note": "Exchange French",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c7c5",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Offbeat early ...a6",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "c7c6",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet setup by White",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e6",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Quiet anti-French setup",
+        "recommendedResponses": [],
+        "acceptedResponses": []
+      },
+      {
+        "uci": "e7e5",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4",
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4",
+          "f3e5",
+          "e1g1"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "caro-kann-defense",
+      "french-defense",
+      "italian-game",
+      "kings-indian-defense",
+      "nimzo-indian-defense",
+      "queens-gambit",
+      "queens-indian-defense",
+      "ruy-lopez",
+      "sicilian-defense"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      },
+      {
+        "uci": "e2e4",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4",
+          "f1b5"
+        ]
+      },
+      {
+        "uci": "d2d4",
+        "type": "sideline",
+        "weight": 70,
+        "note": "The Slav supports d5 before Black commits the bishop.",
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      },
+      {
+        "uci": "e2e4",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3",
+          "e1g1"
+        ]
+      },
+      {
+        "uci": "d2d4",
+        "type": "offbeat",
+        "weight": 25,
+        "note": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      },
+      {
+        "uci": "e2e4",
+        "type": "offbeat",
+        "weight": 20,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4",
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4",
+          "f3e5",
+          "e1g1"
         ]
       }
     ]

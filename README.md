@@ -1,73 +1,51 @@
-# React + TypeScript + Vite
+# Learn Chess Openings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to study and train chess openings move by move.
 
-Currently, two official plugins are available:
+## Basic Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Choose your side: start by selecting White or Black repertoires.
+- Browse opening catalog: filter by category and difficulty, and search by opening name.
+- Study mode: step through an opening line with board controls (start, back, forward, end).
+- Move list with guidance: see SAN moves, active move highlighting, and key move notes.
+- Training mode: play the expected moves directly on the board.
+- Instant feedback: get responses for correct moves, illegal moves, and off-opening moves.
+- Hint system: highlight the target square for the next expected move.
+- Auto opponent replies: the app plays the opponent side in training flow.
+- Progress tracking: view move progress and session stats while training.
+- Local persistence: completed training sessions are saved in local storage.
 
-## React Compiler
+## Included Openings
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The app currently includes a curated set of common openings for both colors, including:
 
-## Expanding the ESLint configuration
+- White examples: Italian Game, Scotch Game, Ruy Lopez, Queen's Gambit, London System
+- Black examples: Sicilian Defense, French Defense, Caro-Kann Defense, King's Indian Defense, Nimzo-Indian Defense
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React 19
+- TypeScript
+- Vite
+- chess.js
+- react-chessboard
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Run Locally
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Start development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm run dev
+```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. Build for production:
+
+```bash
+npm run build
 ```

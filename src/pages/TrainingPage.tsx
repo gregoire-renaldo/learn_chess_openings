@@ -25,8 +25,6 @@ function buildFeedback(status: TrainingStatus, san?: string): FeedbackInfo {
       return { status, title: 'Make your move', detail: 'Drag a piece on the board to start training.', icon: '♟', };
     case 'waiting_user':
       return { status, title: 'Your turn!', detail: 'Find the next move in the opening.', icon: '🎯' };
-    case 'waiting_opponent':
-      return { status, title: 'Opponent is thinking…', detail: 'Wait for the response.', icon: '⏳' };
     case 'correct':
       return { status, title: 'Correct! ✓', detail: san ? `${san} — great move! Keep going.` : 'Great move!', icon: '✅' };
     case 'wrong':
@@ -58,6 +56,7 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
   const savedRef = useRef(false);
 
   const boardOrientation = opening.color === 'black' ? 'black' : 'white';
+  const minMoveIndex = opening.color === 'white' ? 0 : 1;
 
   // Determine which move indices belong to the user vs opponent
   // White openings: user plays even indices (0,2,4…), opponent plays odd
@@ -93,6 +92,42 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
   // Run reset on mount and opening change
   useEffect(() => { reset(); }, [opening.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  const handleBackMove = useCallback(() => {
+    const historyLen = chess.history().length;
+    if (historyLen <= minMoveIndex) return;
+
+    // If we are off-book, undo just that move and keep the same expected index.
+    if (historyLen > currentMoveIndex) {
+      chess.undo();
+      setFen(chess.fen());
+      setHintSquares({});
+      setShowHint(false);
+      setStatus('waiting_user');
+      setFeedback(buildFeedback('waiting_user'));
+      return;
+    }
+
+    // Move back to the previous user turn so the user can play again immediately.
+    let targetIndex = currentMoveIndex - 1;
+    while (targetIndex > minMoveIndex && !isUserMove(targetIndex)) {
+      targetIndex -= 1;
+    }
+
+    const finalIndex = Math.max(minMoveIndex, targetIndex);
+    let undos = historyLen - finalIndex;
+    while (undos > 0) {
+      chess.undo();
+      undos -= 1;
+    }
+
+    setCurrentMoveIndex(finalIndex);
+    setFen(chess.fen());
+    setHintSquares({});
+    setShowHint(false);
+    setStatus('waiting_user');
+    setFeedback(buildFeedback('waiting_user'));
+  }, [chess, currentMoveIndex, isUserMove, minMoveIndex]);
+
   // Show hint: highlight the target square of the expected move
   const handleHint = () => {
     if (currentMoveIndex >= opening.moves.length) return;
@@ -113,7 +148,7 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
 
   // Handle user drop
   const onPieceDrop = useCallback(({ sourceSquare, targetSquare }: { sourceSquare: string; targetSquare: string | null }): boolean => {
-    if (status === 'complete' || status === 'waiting_opponent') return false;
+    if (status === 'complete') return false;
     if (currentMoveIndex >= opening.moves.length) return false;
     if (!isUserMove(currentMoveIndex)) return false;
     if (!targetSquare) return false;
@@ -176,30 +211,26 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
       return true;
     }
 
-    // Next move is opponent's — auto-play after short delay
+    // Next move is opponent's — auto-play immediately
     if (!isUserMove(nextIdx)) {
-      setStatus('waiting_opponent');
-      setFeedback(buildFeedback('waiting_opponent'));
-      setTimeout(() => {
-        const opponentSan = opening.moves[nextIdx].san;
-        chess.move(opponentSan);
-        setFen(chess.fen());
-        const afterOpponent = nextIdx + 1;
-        setCurrentMoveIndex(afterOpponent);
+      const opponentSan = opening.moves[nextIdx].san;
+      chess.move(opponentSan);
+      setFen(chess.fen());
+      const afterOpponent = nextIdx + 1;
+      setCurrentMoveIndex(afterOpponent);
 
-        if (afterOpponent >= opening.moves.length) {
-          setStatus('complete');
-          setFeedback(buildFeedback('complete'));
-          if (!savedRef.current) {
-            savedRef.current = true;
-            const prog = saveSession(opening.id);
-            setSessions(prog.sessions);
-          }
-        } else {
-          setStatus('waiting_user');
-          setFeedback(buildFeedback('waiting_user'));
+      if (afterOpponent >= opening.moves.length) {
+        setStatus('complete');
+        setFeedback(buildFeedback('complete'));
+        if (!savedRef.current) {
+          savedRef.current = true;
+          const prog = saveSession(opening.id);
+          setSessions(prog.sessions);
         }
-      }, 600);
+      } else {
+        setStatus('waiting_user');
+        setFeedback(buildFeedback('waiting_user'));
+      }
     } else {
       setStatus('waiting_user');
       setFeedback(buildFeedback('waiting_user'));
@@ -207,6 +238,10 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
 
     return true;
   }, [chess, currentMoveIndex, opening, isUserMove, status]);
+
+  const canMoveBack = status === 'off_opening'
+    ? chess.history().length > minMoveIndex
+    : currentMoveIndex > minMoveIndex;
 
   // Calculate total user moves for progress
   const totalUserMoves = opening.moves.filter((_, i) => isUserMove(i)).length;
@@ -238,7 +273,7 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
             position: fen,
             onPieceDrop,
             boardOrientation,
-            allowDragging: status !== 'complete' && status !== 'waiting_opponent',
+            allowDragging: status !== 'complete',
             boardStyle: {
               width: '440px',
               borderRadius: '12px',
@@ -253,9 +288,17 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
         {/* Training controls */}
         <div className="training-controls">
           <button
+            className="btn-reset"
+            onClick={handleBackMove}
+            disabled={!canMoveBack}
+            id="btn-back-move"
+          >
+            ◀ Back move
+          </button>
+          <button
             className="btn-hint"
             onClick={handleHint}
-            disabled={status === 'complete' || status === 'waiting_opponent' || showHint}
+            disabled={status === 'complete' || showHint}
             id="btn-hint"
           >
             💡 Hint
@@ -290,16 +333,7 @@ export const TrainingPage: FC<Props> = ({ opening, onBack }) => {
             <div className="feedback-text">
               <div className={`feedback-title ${feedbackTitleClass}`}>{feedback.title}</div>
               <div className="feedback-detail">
-                {status === 'waiting_opponent' ? (
-                  <span>
-                    Opponent is playing{' '}
-                    <span className="thinking-dots">
-                      <span className="thinking-dot" />
-                      <span className="thinking-dot" />
-                      <span className="thinking-dot" />
-                    </span>
-                  </span>
-                ) : feedback.detail}
+                {feedback.detail}
               </div>
             </div>
           </div>

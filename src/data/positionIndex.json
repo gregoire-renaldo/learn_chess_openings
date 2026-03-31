@@ -1,0 +1,437 @@
+{
+  "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "queens-gambit",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "main",
+        "weight": 100,
+        "note": "c4 challenges Black's center"
+      },
+      {
+        "uci": "e2e4",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e5",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g1f3",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b8c6",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Punish slow pawn moves with central expansion"
+      },
+      {
+        "uci": "f7f6",
+        "type": "offbeat",
+        "weight": 10,
+        "note": "A weakening move can create immediate tactical chances"
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game",
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f1b5",
+        "type": "main",
+        "weight": 100,
+        "note": "Bb5 increases pressure on e5 indirectly"
+      },
+      {
+        "uci": "f1c4",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f8c5",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Do not rush tactics when simple development is enough"
+      },
+      {
+        "uci": "c6d4",
+        "type": "offbeat",
+        "weight": 8,
+        "note": "When a piece moves twice early, check for tactical punishments"
+      }
+    ]
+  },
+  "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c3",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "Develop quickly"
+      }
+    ]
+  },
+  "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d3",
+        "type": "main",
+        "weight": 100,
+        "note": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "acceptedResponses": [
+          "f1c4"
+        ]
+      }
+    ]
+  },
+  "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d3",
+        "type": "sideline",
+        "weight": 65,
+        "note": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppp1pp1/7p/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "offbeat",
+        "weight": 18,
+        "note": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3e5",
+        "type": "offbeat",
+        "weight": 10,
+        "note": "Black weakens the diagonal and the king. White can use the centralized knight jump tactically.",
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "italian-game"
+    ],
+    "nextMoves": [
+      {
+        "uci": "f3e5",
+        "type": "offbeat",
+        "weight": 8,
+        "note": "Black jumps forward too early. White can answer with a tactical centralization.",
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "a7a6",
+        "type": "main",
+        "weight": 100,
+        "note": "Bb5 increases pressure on e5 indirectly"
+      },
+      {
+        "uci": "g8f6",
+        "type": "sideline",
+        "weight": 55,
+        "note": "The Berlin develops a piece and challenges White's central intentions immediately.",
+        "recommendedResponses": [
+          "e1g1",
+          "d2d3"
+        ],
+        "acceptedResponses": [
+          "e1g1",
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 12,
+        "note": "Do not overreact to harmless pawn moves"
+      }
+    ]
+  },
+  "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b5a4",
+        "type": "main",
+        "weight": 100,
+        "note": "Bb5 increases pressure on e5 indirectly"
+      }
+    ]
+  },
+  "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "g8f6",
+        "type": "main",
+        "weight": 100,
+        "note": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      }
+    ]
+  },
+  "r1bqkbnr/pppp1pp1/2n4p/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq -": {
+    "openingIds": [
+      "ruy-lopez"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d2d4",
+        "type": "offbeat",
+        "weight": 12,
+        "note": "Black asks the bishop early but neglects development. White should hit the center.",
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "e1g1"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "d7d5",
+        "type": "main",
+        "weight": 100,
+        "note": "c4 challenges Black's center"
+      }
+    ]
+  },
+  "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "c2c4",
+        "type": "main",
+        "weight": 100,
+        "note": "c4 challenges Black's center"
+      }
+    ]
+  },
+  "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "e7e6",
+        "type": "main",
+        "weight": 100,
+        "note": "c4 challenges Black's center"
+      },
+      {
+        "uci": "c7c6",
+        "type": "sideline",
+        "weight": 70,
+        "note": "White can continue normal development"
+      },
+      {
+        "uci": "h7h6",
+        "type": "offbeat",
+        "weight": 15,
+        "note": "When the opponent loses time, improve your pieces"
+      }
+    ]
+  },
+  "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "main",
+        "weight": 100,
+        "note": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "sideline",
+        "weight": 70,
+        "note": "The Slav supports d5 before Black commits the bishop.",
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      }
+    ]
+  },
+  "rnbqkbnr/ppp1ppp1/7p/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq -": {
+    "openingIds": [
+      "queens-gambit"
+    ],
+    "nextMoves": [
+      {
+        "uci": "b1c3",
+        "type": "offbeat",
+        "weight": 15,
+        "note": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      }
+    ]
+  }
+}

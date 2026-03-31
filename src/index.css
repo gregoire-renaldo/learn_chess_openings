@@ -331,6 +331,13 @@ a { text-decoration: none; color: inherit; }
   border-color: var(--border-hover);
 }
 
+.btn-secondary:disabled,
+.btn-hint:disabled,
+.btn-reset:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 .btn-ghost {
   display: inline-flex;
   align-items: center;
@@ -357,6 +364,14 @@ a { text-decoration: none; color: inherit; }
   margin-top: 4rem;
   padding-top: 3rem;
   border-top: 1px solid var(--border);
+}
+
+.home-cta-row {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .stat-item { text-align: center; }
@@ -1076,6 +1091,172 @@ a { text-decoration: none; color: inherit; }
 .empty-state-title { font-size: 1.1rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem; }
 .empty-state-text  { font-size: 0.875rem; }
 
+/* ── Advanced Trainer ─────────────────────────────────────────────────────── */
+.trainer-shell {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.trainer-toolbar {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.trainer-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 540px) minmax(280px, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.trainer-board-col,
+.trainer-side-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trainer-side-col {
+  min-width: 0;
+}
+
+.trainer-header-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+}
+
+.trainer-title {
+  margin-bottom: 0.35rem;
+}
+
+.trainer-selector,
+.trainer-modes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trainer-selector-filters {
+  margin-bottom: 0.5rem;
+}
+
+.trainer-selector-grid,
+.trainer-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.trainer-selector-card {
+  text-align: left;
+}
+
+.trainer-line-count {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.mode-card {
+  text-align: left;
+  padding: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  color: var(--text-primary);
+  transition: all var(--transition);
+}
+
+.mode-card:hover,
+.mode-card.selected {
+  border-color: var(--border-gold);
+  box-shadow: var(--shadow-gold);
+  transform: translateY(-2px);
+}
+
+.mode-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.mode-card-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.move-history,
+.opening-notes,
+.tactic-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.opening-notes {
+  padding: 1rem 1.25rem 1.1rem;
+}
+
+.opening-notes-text {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0.9rem;
+}
+
+.opening-notes-list {
+  padding-left: 1rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  font-size: 0.88rem;
+}
+
+.tactic-panel {
+  padding: 1rem 1.25rem 1.2rem;
+}
+
+.tactic-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.tactic-themes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.9rem;
+}
+
+.tactic-theme {
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(88, 166, 255, 0.12);
+  border: 1px solid rgba(88, 166, 255, 0.22);
+  color: var(--accent-blue);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.tactic-hint,
+.tactic-solved {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.85rem;
+}
+
 /* ── Opponent thinking ─────────────────────────────────────────────────────── */
 .thinking-dots {
   display: inline-flex;
@@ -1101,7 +1282,7 @@ a { text-decoration: none; color: inherit; }
 
 /* ── Responsive ────────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .detail, .training {
+  .detail, .training, .trainer-layout {
     grid-template-columns: 1fr;
   }
 
@@ -1116,6 +1297,10 @@ a { text-decoration: none; color: inherit; }
   }
 
   .home-stats { gap: 2rem; }
+
+  .home-cta-row {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 600px) {

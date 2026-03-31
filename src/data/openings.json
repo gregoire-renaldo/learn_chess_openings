@@ -1,0 +1,308 @@
+[
+  {
+    "id": "italian-game",
+    "name": "Italian Game",
+    "eco": "C50",
+    "side": "white",
+    "startFen": "start",
+    "description": "Classic open game focused on rapid development, central control, and quick castling.",
+    "lines": [
+      {
+        "id": "italian-main-giuoco-piano",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1c4",
+          "f8c5",
+          "c2c3",
+          "g8f6",
+          "d2d3"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "The Giuoco Piano develops naturally and prepares a stable center.",
+        "notes": [
+          "Develop quickly",
+          "Fight for the center",
+          "Castle early",
+          "Keep an eye on the f7 square"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1c4"
+        ]
+      },
+      {
+        "id": "italian-two-knights",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1c4",
+          "g8f6",
+          "d2d3"
+        ],
+        "type": "sideline",
+        "weight": 65,
+        "explanation": "Black develops the kingside knight immediately; White can stay calm and build a solid center.",
+        "notes": [
+          "Do not rush tactics when simple development is enough",
+          "d3 supports the center and frees the dark-squared bishop"
+        ],
+        "recommendedResponses": [
+          "d2d3",
+          "b1c3"
+        ],
+        "acceptedResponses": [
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "id": "italian-offbeat-h6",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "h7h6",
+          "d2d4"
+        ],
+        "type": "offbeat",
+        "weight": 18,
+        "explanation": "Black wastes a tempo. White should strike in the center and continue developing.",
+        "notes": [
+          "Punish slow pawn moves with central expansion",
+          "Do not hunt cheap tricks"
+        ],
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "b1c3",
+          "f1c4"
+        ]
+      },
+      {
+        "id": "italian-offbeat-f6",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "f7f6",
+          "f3e5"
+        ],
+        "type": "offbeat",
+        "weight": 10,
+        "explanation": "Black weakens the diagonal and the king. White can use the centralized knight jump tactically.",
+        "notes": [
+          "A weakening move can create immediate tactical chances",
+          "Look for forks and king safety problems"
+        ],
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      },
+      {
+        "id": "italian-offbeat-nd4",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1c4",
+          "c6d4",
+          "f3e5"
+        ],
+        "type": "offbeat",
+        "weight": 8,
+        "explanation": "Black jumps forward too early. White can answer with a tactical centralization.",
+        "notes": [
+          "When a piece moves twice early, check for tactical punishments",
+          "Central knights often create threats on f7 and c6"
+        ],
+        "recommendedResponses": [
+          "f3e5"
+        ],
+        "acceptedResponses": [
+          "f3e5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ruy-lopez",
+    "name": "Ruy Lopez",
+    "eco": "C60",
+    "side": "white",
+    "startFen": "start",
+    "description": "A classical opening that pressures the knight on c6 and the center behind it.",
+    "lines": [
+      {
+        "id": "ruy-main-morphy",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1b5",
+          "a7a6",
+          "b5a4",
+          "g8f6"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "The Morphy Defense is the most famous main line structure of the Ruy Lopez.",
+        "notes": [
+          "Bb5 increases pressure on e5 indirectly",
+          "Retreat the bishop while preserving long-term pressure"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "f1b5"
+        ]
+      },
+      {
+        "id": "ruy-berlin",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1b5",
+          "g8f6"
+        ],
+        "type": "sideline",
+        "weight": 55,
+        "explanation": "The Berlin develops a piece and challenges White's central intentions immediately.",
+        "notes": [
+          "The position stays classical even without ...a6",
+          "Stay focused on development and central stability"
+        ],
+        "recommendedResponses": [
+          "e1g1",
+          "d2d3"
+        ],
+        "acceptedResponses": [
+          "e1g1",
+          "d2d3",
+          "b1c3"
+        ]
+      },
+      {
+        "id": "ruy-offbeat-h6",
+        "moves": [
+          "e2e4",
+          "e7e5",
+          "g1f3",
+          "b8c6",
+          "f1b5",
+          "h7h6",
+          "d2d4"
+        ],
+        "type": "offbeat",
+        "weight": 12,
+        "explanation": "Black asks the bishop early but neglects development. White should hit the center.",
+        "notes": [
+          "Do not overreact to harmless pawn moves",
+          "Central expansion is often the best punishment"
+        ],
+        "recommendedResponses": [
+          "d2d4"
+        ],
+        "acceptedResponses": [
+          "d2d4",
+          "e1g1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "queens-gambit",
+    "name": "Queen's Gambit",
+    "eco": "D06",
+    "side": "white",
+    "startFen": "start",
+    "description": "A fundamental queen pawn opening based on c4 pressure and central tension.",
+    "lines": [
+      {
+        "id": "qg-main-declined",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "e7e6",
+          "b1c3"
+        ],
+        "type": "main",
+        "weight": 100,
+        "explanation": "The Queen's Gambit Declined keeps the center tense and develops flexibly.",
+        "notes": [
+          "c4 challenges Black's center",
+          "Nc3 increases pressure on d5 and e4"
+        ],
+        "recommendedResponses": [],
+        "acceptedResponses": [
+          "c2c4"
+        ]
+      },
+      {
+        "id": "qg-slav",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "c7c6",
+          "b1c3"
+        ],
+        "type": "sideline",
+        "weight": 70,
+        "explanation": "The Slav supports d5 before Black commits the bishop.",
+        "notes": [
+          "White can continue normal development",
+          "Do not assume every queen pawn structure is the same"
+        ],
+        "recommendedResponses": [
+          "b1c3",
+          "g1f3"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "g1f3"
+        ]
+      },
+      {
+        "id": "qg-offbeat-h6",
+        "moves": [
+          "d2d4",
+          "d7d5",
+          "c2c4",
+          "h7h6",
+          "b1c3"
+        ],
+        "type": "offbeat",
+        "weight": 15,
+        "explanation": "Black plays a slow move. White should continue development and maintain central pressure.",
+        "notes": [
+          "When the opponent loses time, improve your pieces",
+          "Do not force matters without a reason"
+        ],
+        "recommendedResponses": [
+          "b1c3",
+          "c4d5"
+        ],
+        "acceptedResponses": [
+          "b1c3",
+          "c4d5",
+          "g1f3"
+        ]
+      }
+    ]
+  }
+]

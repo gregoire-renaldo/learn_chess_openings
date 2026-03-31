@@ -18,7 +18,6 @@ export interface Opening {
 export type TrainingStatus =
   | 'idle'
   | 'waiting_user'
-  | 'waiting_opponent'
   | 'correct'
   | 'wrong'
   | 'off_opening'

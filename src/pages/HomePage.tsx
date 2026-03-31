@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import type { FC } from 'react';
 
 interface Props {
   onSelectColor: (color: 'white' | 'black') => void;
+  onOpenAdvancedTrainer: (color: 'white' | 'black') => void;
 }
 
-export const HomePage: React.FC<Props> = ({ onSelectColor }) => {
+export const HomePage: FC<Props> = ({ onSelectColor, onOpenAdvancedTrainer }) => {
   const [selected, setSelected] = useState<'white' | 'black' | null>(null);
 
   const handleSelect = (color: 'white' | 'black') => {
@@ -13,6 +15,10 @@ export const HomePage: React.FC<Props> = ({ onSelectColor }) => {
 
   const handleGo = () => {
     if (selected) onSelectColor(selected);
+  };
+
+  const handleAdvancedGo = () => {
+    if (selected) onOpenAdvancedTrainer(selected);
   };
 
   return (
@@ -54,14 +60,24 @@ export const HomePage: React.FC<Props> = ({ onSelectColor }) => {
         </div>
       </div>
 
-      <button
-        className="btn-primary"
-        onClick={handleGo}
-        disabled={!selected}
-        id="btn-browse-openings"
-      >
-        Browse Openings →
-      </button>
+      <div className="home-cta-row">
+        <button
+          className="btn-primary"
+          onClick={handleGo}
+          disabled={!selected}
+          id="btn-browse-openings"
+        >
+          Browse Openings →
+        </button>
+        <button
+          className="btn-secondary"
+          onClick={handleAdvancedGo}
+          disabled={!selected}
+          id="btn-advanced-trainer"
+        >
+          Advanced Trainer →
+        </button>
+      </div>
 
       <div className="home-stats">
         <div className="stat-item">

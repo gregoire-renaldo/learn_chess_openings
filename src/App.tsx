@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage';
 import { OpeningBrowserPage } from './pages/OpeningBrowserPage';
 import { OpeningDetailPage } from './pages/OpeningDetailPage';
 import { TrainingPage } from './pages/TrainingPage';
+import { OpeningTrainerPage } from './pages/OpeningTrainerPage';
 
 function App() {
   const [page, setPage] = useState<AppPage>('home');
@@ -22,6 +23,10 @@ function App() {
   const goTraining = (opening: Opening) => {
     setSelectedOpening(opening);
     setPage('training');
+  };
+  const goAdvancedTrainer = (color: 'white' | 'black') => {
+    setSelectedColor(color);
+    setPage('trainer');
   };
 
   return (
@@ -49,7 +54,7 @@ function App() {
       {/* ── Pages ── */}
       <main className="page">
         {page === 'home' && (
-          <HomePage onSelectColor={goBrowser} />
+          <HomePage onSelectColor={goBrowser} onOpenAdvancedTrainer={goAdvancedTrainer} />
         )}
         {page === 'browser' && (
           <OpeningBrowserPage
@@ -69,6 +74,12 @@ function App() {
           <TrainingPage
             opening={selectedOpening}
             onBack={() => setPage('detail')}
+          />
+        )}
+        {page === 'trainer' && (
+          <OpeningTrainerPage
+            side={selectedColor}
+            onBack={goHome}
           />
         )}
       </main>
